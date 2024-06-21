@@ -1,6 +1,6 @@
 # To see all of this detail 
-1.Clone this repository
-2.run npm install for install node_module
+1.Clone this repository <br>
+2.run npm install for install node_module <br>
 3.run npm run dev for start this project
 
 # React + Vite
