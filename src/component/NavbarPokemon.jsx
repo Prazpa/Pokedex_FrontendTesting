@@ -10,7 +10,7 @@ function NavbarPokemon() {
         setData(e.target.value);
     };
 
-    const logoPath = "/src/assets/logo.webp";
+    const logoPath = "/src/assets/logo.jpg";
     const groupStyle = "flex items-center gap-1.5 hover:underline";
     const borderStyle = "border border-r-black-800 border-l-0 border-t-0 border-b-0";
     const inputStyle = "w-[520px] h-12 bg-stone-50 rounded-[10px] pl-9 text-stone-500 text-sm font-normal";
@@ -20,7 +20,7 @@ function NavbarPokemon() {
     return (
         <div className={containerStyle}>
             <Link to={'/'} className='w-[210px] flex justify-center '>
-                <img src={logoPath} alt="logo" className='w-[156px] h-[57px] md:w-auto' />
+                <img src={`${logoPath}`} alt="logo" className='w-[156px] h-[57px] md:w-auto' />
             </Link>
 
             <div className="relative">
